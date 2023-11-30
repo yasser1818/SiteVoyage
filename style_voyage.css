@@ -1,0 +1,523 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: century;
+}
+
+
+header{
+	   background-image: url('Fond_Index.png');
+	   height: 100vh;
+	   background-size: cover;
+	   background-position: center;
+	   
+}
+
+
+.goutte{
+	background-image: url('fond_goutte.png');
+	height: 180vh;
+	background-size: cover;
+	background-repeat: repeat;
+}
+
+
+   .logo{
+	width: 400px;
+    display : absolute;
+	margin-left : 560px;
+	margin-top: 50px;
+   }
+
+nav{
+    position: absolute;
+	top: 135px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-top: solid rgba(255, 255, 255, 0.3);
+	border-width: 0.5;
+    padding: 10px 427 10 480;
+}
+
+menu{
+     
+
+}
+
+
+li{
+    display: inline-block;
+    list-style: none;
+	margin: 0px 20px; 
+}
+
+
+
+li a{
+	text-decoration: none;
+	font-family : Helvetica;
+	color: #ffffff;
+	font-size: 14;
+	text-transform: uppercase;
+}
+
+
+
+.header1 nav{
+	border-top: solid rgba(0, 0, 0, 0.3);
+	border-width: 0.5;
+	border-bottom:  solid rgba(0, 0, 0, 0.3);
+    border-bottom-width: 0.5;   
+}
+
+
+
+.couleursecondaire li a{
+	color: #000000;
+}
+
+
+
+.destination {
+	display: flex;
+    justify-content: center;
+	margin-top: 160px; 
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 30px;
+    color: #000000;
+    text-transform: uppercase;
+    border-bottom : 0.5px solid #c1bdbd;
+	padding-bottom: 12px;
+	padding-right: 10px;
+	margin-right: 280px;
+	margin-left: 280px;
+}
+
+
+
+.sous-destination {
+	display: flex;
+    justify-content: center;
+	font-family: 'Bebas Neue', cursive;
+	margin-top: 5px;
+font-size: 15px;
+letter-spacing: 0px;
+word-spacing: 4px;
+color: #c1bdbd;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: uppercase;
+} 
+
+
+
+.continent {
+
+    text-align: center;
+	font-family: 'Bebas Neue', cursive;
+	margin-top: 57px;
+font-size: 20px;
+letter-spacing: 0px;
+word-spacing: 4px;
+color: #353535;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: uppercase;
+border-bottom : 1px solid #353535;
+margin-left:600px;
+margin-right:600px;
+padding-bottom: 10px;
+}
+
+
+
+.FRANCE {
+	display: flex;
+	position:absolute;
+	border: 1px solid;
+	left: 120;
+	top: 480;
+	width: 20%;
+}
+
+
+
+.ITALIE {
+	display: flex;
+	position:absolute;
+	border: 1px solid;
+	left: 610;
+	top: 480;
+	width: 20%;
+}
+
+
+
+.ESPAGNE {
+	display: flex;
+	position:absolute;
+	border: 1px solid;
+	left: 1100;
+	top: 480;
+	width: 20%;
+}
+
+
+
+.photospays {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 100px;
+}
+
+
+
+div {
+	font-family: 'Bebas Neue', cursive;
+	text-transform: uppercase;
+	display: flex;
+	justify-content: space-around;
+}
+ 
+
+
+.forme {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 165px;
+	font-size: 22px;  
+	margin-left:20px;
+	margin-right:20px;
+	margin-bottom: 100px;
+}
+
+
+.forme1 {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 175px;
+	font-size: 22px;  
+	margin-left:20px;
+	margin-right:20px;
+	margin-bottom: 20px;
+}
+
+
+
+.MEXIQUE {
+	display: flex;
+	position:absolute;
+	border: 1px solid;
+	left: 120;
+	top: 920;
+	width: 20%;
+}
+
+
+.CANADA {
+	display: flex;
+	position:absolute;
+	border: 1px solid;
+	left: 610;
+	top: 920;
+	width: 20%;
+}
+
+
+.BRESIL {
+	display: flex;
+	position:absolute;
+	border: 1px solid;
+	left: 1100;
+	top: 920;
+	width: 20%;
+}
+
+
+.Mexique_intro {
+    width: 25%;
+	display: flex;
+	position: absolute;
+	left: 40px;
+	margin-top: 80px;
+	border: 1px solid;
+}
+
+.intro{
+	padding-left:490px;
+	padding-top: 50px;
+	padding-right:100px;
+	font-size: 25px;
+	font-family: 'Oswald', sans-serif;
+letter-spacing: 0px;
+word-spacing: 4px;
+color: #3d3d3d;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+text-align: justify;
+}
+
+h2{
+	padding-left:490px;
+	padding-top: 90px;
+	padding-right:100px;
+	font-size: 24px;
+	font-family: 'Oswald', sans-serif;
+letter-spacing: 0px;
+word-spacing: 4px;
+color: #000000;
+font-weight: bold;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+}
+
+.avanT{
+	padding-left:50px;
+	padding-top: 100px;
+	padding-right:100px;
+	font-size: 24px;
+	font-family: 'Oswald', sans-serif;
+letter-spacing: 0px;
+word-spacing: 4px;
+color: #1f8508;
+font-weight: bold;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: uppercase;
+}
+
+.inconV{
+	padding-left:50px;
+	padding-top: 85px;
+	padding-right:100px;
+	font-size: 24px;
+	font-family: 'Oswald', sans-serif;
+letter-spacing: 0px;
+word-spacing: 4px;
+color: #c70909;
+font-weight: bold;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: uppercase;
+}
+
+
+.avantages{
+	font-size: 25px;
+	font-family: 'Oswald', sans-serif;
+letter-spacing: 0px;
+word-spacing: 4px;
+color: #3d3d3d;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+padding-left: 50px;
+padding-right: 500px;
+padding-top: 30px;
+text-align: justify;
+}
+
+.Mexique_avantage {
+    width: 21%;
+	display: flex;
+	position: absolute;
+	right: 100px;
+	top: 750px;
+	border: 1px solid;
+}
+
+.inconvenients{
+	font-size: 25px;
+	font-family: 'Oswald', sans-serif;
+letter-spacing: 0px;
+word-spacing: 4px;
+color: #3d3d3d;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+padding-left: 50px;
+padding-right: 500px;
+padding-top: 30px;
+text-align: justify;
+}
+
+h3{
+    padding-left:50px;
+	padding-top: 100px;
+	padding-right:100px;
+	font-size: 24px;
+	font-family: 'Oswald', sans-serif;
+    letter-spacing: 0px;
+    word-spacing: 4px;
+    color: #000000;
+font-weight: bold;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: uppercase;
+}
+
+.mexicocity{
+	padding-left:490px;
+	padding-top: 30px;
+	padding-right:100px;
+	font-size: 24px;
+	font-family: 'Oswald', sans-serif;
+letter-spacing: 0px;
+word-spacing: 4px;
+color: #000000;
+font-weight: bold;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+
+}
+
+
+.mexico{
+	font-size: 28px;
+	font-family: 'Oswald', sans-serif;
+letter-spacing: 0px;
+word-spacing: 4px;
+color: #3d3d3d;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+padding-left: 480px;
+padding-right: 50px;
+padding-top: 30px;
+text-align: justify;
+}
+
+.mexique_city{
+	width: 18%;
+	display: flex;
+	position: absolute;
+	left: 40px;
+	top:1410px;
+	border: 1px solid;
+	margin-left:50px;
+}	
+
+
+.mexique_maya{
+	width: 18%;
+	display: flex;
+	position: absolute;
+	left: 40px;
+	top:1685px;
+	border: 1px solid;
+	margin-left:50px;
+}	
+
+.mexique_oaxana{
+	width: 18%;
+	display: flex;
+	position: absolute;
+	left: 40px;
+	top:1958px;
+	border: 1px solid;
+	margin-left:50px;
+}	
+
+.mexique_guanajuato{
+	width: 18%;
+	display: flex;
+	position: absolute;
+	left: 40px;
+	top:2210px;
+	border: 1px solid;
+	margin-left:50px;
+}	
+
+.activite1{
+	font-size: 25px;
+	font-family: 'Oswald', sans-serif;
+letter-spacing: 0px;
+word-spacing: 4px;
+color: #3d3d3d;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+padding-left: 50px;
+padding-top: 60px;
+text-align: justify;
+}
+
+
+
+.activite{
+	font-size: 25px;
+	font-family: 'Oswald', sans-serif;
+letter-spacing: 0px;
+word-spacing: 4px;
+color: #3d3d3d;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+padding-left: 50px;
+padding-top: 30px;
+text-align: justify;
+}
+
+.activite_fin{
+	font-size: 25px;
+	font-family: 'Oswald', sans-serif;
+letter-spacing: 0px;
+word-spacing: 4px;
+color: #3d3d3d;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+padding-left: 50px;
+padding-top: 30px;
+padding-bottom:100px;
+text-align: justify;
+}
+
+.QuiSomme {
+
+    text-align: center;
+	font-family: 'Bebas Neue', cursive;
+	margin-top: 57px;
+font-size: 20px;
+letter-spacing: 0px;
+word-spacing: 4px;
+color: #353535;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: uppercase;
+border-bottom : 1px solid #353535;
+margin-left:250px;
+margin-right:250px;
+padding-bottom: 10px;
+}
